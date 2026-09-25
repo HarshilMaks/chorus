@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.env
+.venv/
+venv/
+
+# Data
+data/raw/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+*.db
+*.sqlite
+
+# Models
+models/
+*.h5
+*.pkl
+*.joblib
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
